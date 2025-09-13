@@ -1,10 +1,36 @@
+import airFryerPaneerTikka from '../components/images/air-fryer-paneer-tikka-featured.jpg';
+import alooTikki from '../components/images/aloo-tikki.jpg';
+import b0248411d7b2645a9f5392014fbee514 from '../components/images/b0248411d7b2645a9f5392014fbee514.jpg';
+import butterChicken from '../components/images/butter-chicken--750x750.jpg';
+import Cabbagee from '../components/images/Cabbagee.png';
+import ChickenCurryThumbnail from '../components/images/Chicken-Curry-Thumbnail.jpg';
+import DakMakhni from '../components/images/Dak Makhni.png';
+import easyVegetableBiryani from '../components/images/easy-vegetable-biryani.jpg';
+import french from '../components/images/french.png';
+import haraBharaKabab from '../components/images/hara-bhara-kabab.png';
+
+import IceCreamSundaeHero from '../components/images/Ice-cream-sundae-hero-11-1024x1024.jpg';
+import KadaiPaneer from '../components/images/Kadai Paneer.png';
+import mangoKulfi from '../components/images/mango-kulfi-500x500.jpg';
+import OIP from '../components/images/OIP.png';
+import PaneerButterMasala from '../components/images/Paneer Butter Masala.png';
+import papad from '../components/images/papad.png';
+import Phirni from '../components/images/Phirni.png';
+import R from '../components/images/R.jpeg';
+import Rasgulla from '../components/images/Rasgulla.png';
+import TandooriChicken from '../components/images/Tandoori-Chicken.png';
+import VegetableSpringRolls from '../components/images/Vegetable-Spring-Rolls.jpg';
+import wp2370074 from '../components/images/wp2370074.jpg';
+import GarlicBreadFoodiecrush from '../components/images/Garlic-Bread-foodiecrush.com-007.jpg';
+
+
 export const dishes = [
     // ===== STARTERS =====
     {
         id: 1,
         name: "Paneer Tikka",
         description: "Marinated paneer cubes grilled with spices.",
-        image: "https://i.ibb.co/jkR8hVPk/air-fryer-paneer-tikka-featured.jpg",
+        image: airFryerPaneerTikka,
         mealType: "STARTER",
         type: "VEG",
         isVeg: true,
@@ -18,7 +44,7 @@ export const dishes = [
         id: 2,
         name: "Veg Spring Rolls",
         description: "Crispy rolls stuffed with vegetables.",
-        image: "https://i.ibb.co/zHV1nd1F/Vegetable-Spring-Rolls.jpg",
+        image: VegetableSpringRolls,
         mealType: "STARTER",
         type: "VEG",
         isVeg: true,
@@ -32,7 +58,7 @@ export const dishes = [
         id: 3,
         name: "Hara Bhara Kebab",
         description: "Spinach and green peas patties.",
-        image: "https://i.ibb.co/bghrPr0k/hara-bhara-kabab.webp",
+        image: haraBharaKabab,
         mealType: "STARTER",
         type: "VEG",
         isVeg: true,
@@ -46,7 +72,7 @@ export const dishes = [
         id: 4,
         name: "Chicken Tandoori",
         description: "Chicken legs marinated in yogurt and spices, roasted in tandoor.",
-        image: "https://i.ibb.co/NgxYwXgc/Tandoori-Chicken.png",
+        image: TandooriChicken,
         mealType: "STARTER",
         type: "NON-VEG",
         isVeg: false,
@@ -60,7 +86,7 @@ export const dishes = [
         id: 5,
         name: "Paneer Butter Masala",
         description: "Cubed paneer cooked in a creamy tomato and butter gravy.",
-        image: "https://i.ibb.co/vCbmrkg3/Paneer-Butter-Masala.webp",
+        image: PaneerButterMasala,
         mealType: "STARTER",
         type: "VEG",
         isVeg: true,
@@ -76,7 +102,7 @@ export const dishes = [
         id: 6,
         name: "Vegetable Biryani",
         description: "Aromatic basmati rice cooked with mixed vegetables and spices.",
-        image: "https://i.ibb.co/mrVSCvF1/easy-vegetable-biryani.jpg",
+        image: easyVegetableBiryani,
         mealType: "STARTER",
         type: "VEG",
         isVeg: true,
@@ -89,12 +115,13 @@ export const dishes = [
         ],
     },
 
+
     // ===== MAIN COURSE =====
     {
         id: 7,
         name: "Tandoori Chicken",
         description: "Tandoori chicken is a dish made from chic...",
-        image: "https://i.ibb.co/NgxYwXgc/Tandoori-Chicken.png",
+        image: TandooriChicken,
         mealType: "MAIN COURSE",
         type: "NON-VEG",
         isVeg: false,
@@ -108,7 +135,7 @@ export const dishes = [
         id: 8,
         name: "Dal Makhani",
         description: "Slow-cooked black lentils with butter and cream.",
-        image: "https://i.ibb.co/ccZZPCMy/Tandoori-Chicken.png",
+        image: DakMakhni,
         mealType: "MAIN COURSE",
         type: "VEG",
         isVeg: true,
@@ -122,7 +149,7 @@ export const dishes = [
         id: 9,
         name: "Cabbage",
         description: "Fragrant rice with mixed vegetables and spices.",
-        image: "https://i.ibb.co/vrRCP07/Cabbagee.png",
+        image: Cabbagee,
         mealType: "MAIN COURSE",
         type: "VEG",
         isVeg: true,
@@ -136,7 +163,7 @@ export const dishes = [
         id: 10,
         name: "Butter Chicken",
         description: "Chicken cooked in creamy tomato butter sauce.",
-        image: "https://i.ibb.co/4ZPkSDKc/butter-chicken-750x750.jpg",
+        image: butterChicken,
         mealType: "MAIN COURSE",
         type: "NON-VEG",
         isVeg: false,
@@ -150,7 +177,7 @@ export const dishes = [
         id: 11,
         name: "Kadai Paneer",
         description: "Cottage cheese cubes cooked in spicy tomato and bell pepper gravy.",
-        image: "https://i.ibb.co/KBjwyyt/Kadai-Paneer.webp",
+        image: KadaiPaneer,
         mealType: "MAIN COURSE",
         type: "VEG",
         isVeg: true,
@@ -166,7 +193,7 @@ export const dishes = [
         id: 12,
         name: "Chicken Curry",
         description: "Tender chicken pieces cooked in a rich and flavorful Indian curry sauce.",
-        image: "https://i.ibb.co/QFttfJwJ/Chicken-Curry-Thumbnail.jpg",
+        image: ChickenCurryThumbnail,
         mealType: "MAIN COURSE",
         type: "NON-VEG",
         isVeg: false,
@@ -179,12 +206,13 @@ export const dishes = [
         ]
     },
 
+
     // ===== DESSERTS =====
     {
         id: 13,
         name: "Gulab Jamun",
         description: "Deep-fried milk solids soaked in sugar syrup.",
-        image: "https://i.ibb.co/qFhsn4P5/OIP.webp",
+        image: OIP,
         mealType: "DESSERT",
         type: "VEG",
         isVeg: true,
@@ -197,7 +225,7 @@ export const dishes = [
         id: 14,
         name: "Rasgulla",
         description: "Spongy chenna balls soaked in light sugar syrup.",
-        image: "https://i.ibb.co/mC0qDwfz/Rasgulla.webp",
+        image: Rasgulla,
         mealType: "DESSERT",
         type: "VEG",
         isVeg: true,
@@ -210,7 +238,7 @@ export const dishes = [
         id: 15,
         name: "Ice Cream Sundae",
         description: "Vanilla ice cream topped with chocolate syrup and nuts.",
-        image: "https://i.ibb.co/TBmb585J/Ice-cream-sundae-hero-11-1024x1024.jpg",
+        image: IceCreamSundaeHero,
         mealType: "DESSERT",
         type: "VEG",
         isVeg: true,
@@ -223,7 +251,7 @@ export const dishes = [
         id: 16,
         name: "Brownie with Ice Cream",
         description: "Chocolate brownie served with vanilla ice cream.",
-        image: "https://i.ibb.co/q3vys1NG/b0248411d7b2645a9f5392014fbee514.jpg",
+        image: b0248411d7b2645a9f5392014fbee514,
         mealType: "DESSERT",
         type: "VEG",
         isVeg: true,
@@ -237,7 +265,7 @@ export const dishes = [
         id: 17,
         name: "Mango Kulfi",
         description: "Creamy Indian mango-flavored frozen dessert made from milk and saffron.",
-        image: "https://i.ibb.co/9mctzkwC/mango-kulfi-500x500.jpg",
+        image: mangoKulfi,
         mealType: "DESSERT",
         type: "VEG",
         isVeg: true,
@@ -253,7 +281,7 @@ export const dishes = [
         id: 18,
         name: "Pistachio Phirni",
         description: "Smooth rice pudding flavored with cardamom and garnished with chopped pistachios.",
-        image: "https://i.ibb.co/hxgJdLCR/Phirni.webp",
+        image: Phirni,
         mealType: "DESSERT",
         type: "VEG",
         isVeg: true,
@@ -266,12 +294,13 @@ export const dishes = [
         ]
     },
 
+
     // ===== SIDES =====
     {
         id: 19,
         name: "French Fries",
         description: "Crispy golden potato fries sprinkled with salt.",
-        image: "https://i.ibb.co/JRnrn3Ym/french.webp",
+        image: french,
         mealType: "SIDES",
         type: "VEG",
         isVeg: true,
@@ -284,7 +313,7 @@ export const dishes = [
         id: 20,
         name: "Masala Papad",
         description: "Crispy papad topped with onions, tomato and spices.",
-        image: "https://i.ibb.co/35rsY30y/papad.webp",
+        image: papad,
         mealType: "SIDES",
         type: "VEG",
         isVeg: true,
@@ -298,7 +327,7 @@ export const dishes = [
         id: 21,
         name: "Garlic Bread",
         description: "Toasted bread with garlic butter.",
-        image: "https://i.ibb.co/ksmhMsQ4/Garlic-Bread-foodiecrush-com-007.jpg",
+        image: GarlicBreadFoodiecrush,
         mealType: "SIDES",
         type: "VEG",
         isVeg: true,
@@ -312,7 +341,7 @@ export const dishes = [
         id: 22,
         name: "Chicken Wings",
         description: "Crispy fried chicken wings tossed in spicy sauce.",
-        image: "https://i.ibb.co/nqP7vyX2/wp2370074.jpg",
+        image: wp2370074,
         mealType: "SIDES",
         type: "NON-VEG",
         isVeg: false,
@@ -325,7 +354,7 @@ export const dishes = [
         id: 23,
         name: "Crispy Aloo Tikkis",
         description: "Spiced and shallow-fried potato patties, crispy on the outside and soft inside.",
-        image: "https://i.ibb.co/39C117ym/aloo-tikki.jpg",
+        image: alooTikki,
         mealType: "SIDES",
         type: "VEG",
         isVeg: true,
@@ -341,7 +370,7 @@ export const dishes = [
         id: 24,
         name: "Tandoori Chicken Wings",
         description: "Spicy grilled chicken wings marinated with yogurt and tandoori spices.",
-        image: "https://i.ibb.co/4RYxwLXy/R.jpg",
+        image: R,
         mealType: "SIDES",
         type: "NON-VEG",
         isVeg: false,
@@ -353,6 +382,6 @@ export const dishes = [
             { name: "Garlic paste", quantity: "1 tbsp" }
         ]
     }
-
 ];
+
 

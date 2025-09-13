@@ -722,7 +722,26 @@
 .north-header-arrow {
   font-size: 1.2em;
   color: #444;
-  margin-left: 300px;
+  margin-left: 68%;
+  /* relative margin for larger screens */
+}
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+  .north-header-arrow {
+    margin-left: 60%;
+    /* reduce margin */
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+  .north-header-arrow {
+    margin-left: 48%;
+    /* smaller margin for narrow screens */
+    font-size: 1em;
+    /* optionally reduce font size */
+  }
 }
 
 
@@ -782,7 +801,7 @@
 .filter-toggle-group {
   display: flex;
   gap: 8px;
-  margin-left: 84px;
+  margin-left: auto;
 }
 
 .filter-veg-toggle,
